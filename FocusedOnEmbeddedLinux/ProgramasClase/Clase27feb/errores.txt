@@ -1,0 +1,865 @@
+lrwxrwxrwx.   1 root root     7 ene  9  2013 /bin -> usr/bin
+lrwxrwxrwx.   1 root root     7 ene  9  2013 /lib -> usr/lib
+lrwxrwxrwx.   1 root root     9 ene  9  2013 /lib64 -> usr/lib64
+lrwxrwxrwx.   1 root root     8 ene  9  2013 /sbin -> usr/sbin
+
+/boot:
+total 143180
+dr-xr-xr-x.  5 root root     3072 abr  3  2014 .
+drwxr-xr-x. 19 root root     4096 feb 27 08:37 ..
+-rw-r--r--.  1 root root   129453 oct  4  2013 config-3.10.14-100.fc18.x86_64
+-rw-r--r--.  1 root root   129452 ago 21  2013 config-3.10.9-100.fc18.x86_64
+-rw-r--r--.  1 root root   131327 dic  2  2013 config-3.11.10-100.fc18.x86_64
+drwxr-xr-x.  4 root root     1024 ene  9  2013 efi
+-rw-r--r--.  1 root root   178436 ene  8  2013 elf-memtest86+-4.20
+drwxr-xr-x.  6 root root     1024 ene 29  2014 grub2
+-rw-------.  1 root root 35505151 oct 10  2013 initramfs-3.10.14-100.fc18.x86_64.img
+-rw-------.  1 root root  7929118 oct 16  2013 initramfs-3.10.14-100.fc18.x86_64kdump.img
+-rw-------.  1 root root 33796619 ago 29  2013 initramfs-3.10.9-100.fc18.x86_64.img
+-rw-------.  1 root root 36388560 ene 29  2014 initramfs-3.11.10-100.fc18.x86_64.img
+-rw-------.  1 root root  7971090 abr  3  2014 initramfs-3.11.10-100.fc18.x86_64kdump.img
+-rw-r--r--.  1 root root   560600 ene  9  2013 initrd-plymouth.img
+drwx------.  2 root root    12288 may 14  2013 lost+found
+-rw-r--r--.  1 root root   176760 ene  8  2013 memtest86+-4.20
+-rw-------.  1 root root  2650090 oct  4  2013 System.map-3.10.14-100.fc18.x86_64
+-rw-------.  1 root root  2649671 ago 21  2013 System.map-3.10.9-100.fc18.x86_64
+-rw-------.  1 root root  2693540 dic  2  2013 System.map-3.11.10-100.fc18.x86_64
+-rw-r--r--.  1 root root   234473 abr  2  2013 tboot.gz
+-rw-r--r--.  1 root root     9479 abr  2  2013 tboot-syms
+-rwxr-xr-x.  1 root root  5124008 oct  4  2013 vmlinuz-3.10.14-100.fc18.x86_64
+-rw-r--r--.  1 root root      168 oct  4  2013 .vmlinuz-3.10.14-100.fc18.x86_64.hmac
+-rwxr-xr-x.  1 root root  5122536 ago 21  2013 vmlinuz-3.10.9-100.fc18.x86_64
+-rw-r--r--.  1 root root      167 ago 21  2013 .vmlinuz-3.10.9-100.fc18.x86_64.hmac
+-rwxr-xr-x.  1 root root  5175240 dic  2  2013 vmlinuz-3.11.10-100.fc18.x86_64
+-rw-r--r--.  1 root root      168 dic  2  2013 .vmlinuz-3.11.10-100.fc18.x86_64.hmac
+
+/dev:
+total 4
+drwxr-xr-x. 19 root root        3480 feb 27 08:36 .
+drwxr-xr-x. 19 root root        4096 feb 27 08:37 ..
+crw-------.  1 root root     10, 235 feb 27 08:36 autofs
+drwxr-xr-x.  2 root root         420 feb 27 08:36 block
+drwxr-xr-x.  2 root root          80 feb 27 08:35 bsg
+crw-------.  1 root root     10, 234 feb 27 08:36 btrfs-control
+drwxr-xr-x.  3 root root          60 feb 27 08:35 bus
+lrwxrwxrwx.  1 root root           3 feb 27 08:36 cdrom -> sr0
+drwxr-xr-x.  2 root root        3080 feb 27 08:36 char
+crw-------.  1 root root      5,   1 feb 27 08:36 console
+lrwxrwxrwx.  1 root root          11 feb 27 08:35 core -> /proc/kcore
+drwxr-xr-x.  4 root root         100 feb 27 08:36 cpu
+crw-------.  1 root root     10,  62 feb 27 08:36 cpu_dma_latency
+drwxr-xr-x.  5 root root         100 feb 27 08:35 disk
+brw-rw----.  1 root disk    253,   0 feb 27 08:36 dm-0
+brw-rw----.  1 root disk    253,   1 feb 27 08:36 dm-1
+brw-rw----.  1 root disk    253,   2 feb 27 08:36 dm-2
+drwxr-xr-x.  2 root root          80 feb 27 08:35 dri
+crw-rw----.  1 root video    29,   0 feb 27 08:36 fb0
+lrwxrwxrwx.  1 root root          13 feb 27 08:35 fd -> /proc/self/fd
+drwxr-xr-x.  2 root root         100 feb 27 08:36 fedora
+crw-rw-rw-.  1 root root      1,   7 feb 27 08:36 full
+crw-rw-rw-.  1 root root     10, 229 feb 27 08:36 fuse
+crw-------.  1 root root    250,   0 feb 27 08:36 hidraw0
+crw-------.  1 root root    250,   1 feb 27 08:36 hidraw1
+crw-------.  1 root root     10, 228 feb 27 08:36 hpet
+drwxr-xr-x.  3 root root           0 feb 27 08:36 hugepages
+prw-------.  1 root root           0 feb 27 08:35 initctl
+drwxr-xr-x.  4 root root         200 feb 27 08:36 input
+crw-r--r--.  1 root root      1,  11 feb 27 08:36 kmsg
+srw-rw-rw-.  1 root root           0 feb 27 08:35 log
+brw-rw----.  1 root disk      7,   0 feb 27 08:36 loop0
+brw-rw----.  1 root disk      7,   1 feb 27 08:36 loop1
+brw-rw----.  1 root disk      7,   2 feb 27 08:36 loop2
+brw-rw----.  1 root disk      7,   3 feb 27 08:36 loop3
+brw-rw----.  1 root disk      7,   4 feb 27 08:36 loop4
+brw-rw----.  1 root disk      7,   5 feb 27 08:36 loop5
+brw-rw----.  1 root disk      7,   6 feb 27 08:36 loop6
+brw-rw----.  1 root disk      7,   7 feb 27 08:36 loop7
+crw-------.  1 root root     10, 237 feb 27 08:36 loop-control
+crw-rw----.  1 root lp        6,   0 feb 27 08:36 lp0
+crw-rw----.  1 root lp        6,   1 feb 27 08:36 lp1
+crw-rw----.  1 root lp        6,   2 feb 27 08:36 lp2
+crw-rw----.  1 root lp        6,   3 feb 27 08:36 lp3
+drwxr-xr-x.  2 root root         120 feb 27 08:36 mapper
+crw-------.  1 root root     10, 227 feb 27 08:36 mcelog
+crw-r-----.  1 root kmem      1,   1 feb 27 08:36 mem
+drwxrwxrwt.  2 root root          40 feb 27 08:35 mqueue
+drwxr-xr-x.  2 root root          60 feb 27 08:35 net
+crw-------.  1 root root     10,  61 feb 27 08:36 network_latency
+crw-------.  1 root root     10,  60 feb 27 08:36 network_throughput
+crw-rw-rw-.  1 root root      1,   3 feb 27 08:36 null
+crw-------.  1 root root     10, 144 feb 27 08:36 nvram
+crw-rw-r--.  1 root lp       99,   0 feb 27 08:36 parport0
+crw-r-----.  1 root kmem      1,   4 feb 27 08:36 port
+crw-------.  1 root root    108,   0 feb 27 08:36 ppp
+crw-rw-rw-.  1 root tty       5,   2 feb 27  2016 ptmx
+drwxr-xr-x.  2 root root           0 feb 27 08:35 pts
+crw-rw-rw-.  1 root root      1,   8 feb 27 08:36 random
+drwxr-xr-x.  2 root root          60 feb 27 08:35 raw
+crw-rw-r--+  1 root root     10,  59 feb 27 08:36 rfkill
+lrwxrwxrwx.  1 root root           4 feb 27 08:36 rtc -> rtc0
+crw-r--r--.  1 root root    254,   0 feb 27 08:36 rtc0
+brw-rw----.  1 root disk      8,   0 feb 27 08:36 sda
+brw-rw----.  1 root disk      8,   1 feb 27 08:36 sda1
+brw-rw----.  1 root disk      8,   2 feb 27 08:36 sda2
+brw-rw----.  1 root disk      8,   3 feb 27 08:36 sda3
+brw-rw----.  1 root disk      8,   4 feb 27 08:36 sda4
+brw-rw----.  1 root disk      8,   5 feb 27 08:36 sda5
+brw-rw----.  1 root disk      8,   6 feb 27 08:36 sda6
+crw-rw----+  1 root cdrom    21,   0 feb 27 08:36 sg0
+crw-rw----.  1 root disk     21,   1 feb 27 08:36 sg1
+drwxrwxrwt.  2 root root         200 feb 27 08:37 shm
+crw-------.  1 root root     10, 231 feb 27 08:36 snapshot
+drwxr-xr-x.  3 root root         240 feb 27 08:36 snd
+brw-rw----+  1 root cdrom    11,   0 feb 27 08:36 sr0
+lrwxrwxrwx.  1 root root          15 feb 27 08:35 stderr -> /proc/self/fd/2
+lrwxrwxrwx.  1 root root          15 feb 27 08:35 stdin -> /proc/self/fd/0
+lrwxrwxrwx.  1 root root          15 feb 27 08:35 stdout -> /proc/self/fd/1
+crw-rw-rw-.  1 root tty       5,   0 feb 27 08:36 tty
+crw--w----.  1 root tty       4,   0 feb 27 08:36 tty0
+crw--w----.  1 root tty       4,   1 feb 27 08:36 tty1
+crw--w----.  1 root tty       4,  10 feb 27 08:36 tty10
+crw--w----.  1 root tty       4,  11 feb 27 08:36 tty11
+crw--w----.  1 root tty       4,  12 feb 27 08:36 tty12
+crw--w----.  1 root tty       4,  13 feb 27 08:36 tty13
+crw--w----.  1 root tty       4,  14 feb 27 08:36 tty14
+crw--w----.  1 root tty       4,  15 feb 27 08:36 tty15
+crw--w----.  1 root tty       4,  16 feb 27 08:36 tty16
+crw--w----.  1 root tty       4,  17 feb 27 08:36 tty17
+crw--w----.  1 root tty       4,  18 feb 27 08:36 tty18
+crw--w----.  1 root tty       4,  19 feb 27 08:36 tty19
+crw--w----.  1 root tty       4,   2 feb 27 08:36 tty2
+crw--w----.  1 root tty       4,  20 feb 27 08:36 tty20
+crw--w----.  1 root tty       4,  21 feb 27 08:36 tty21
+crw--w----.  1 root tty       4,  22 feb 27 08:36 tty22
+crw--w----.  1 root tty       4,  23 feb 27 08:36 tty23
+crw--w----.  1 root tty       4,  24 feb 27 08:36 tty24
+crw--w----.  1 root tty       4,  25 feb 27 08:36 tty25
+crw--w----.  1 root tty       4,  26 feb 27 08:36 tty26
+crw--w----.  1 root tty       4,  27 feb 27 08:36 tty27
+crw--w----.  1 root tty       4,  28 feb 27 08:36 tty28
+crw--w----.  1 root tty       4,  29 feb 27 08:36 tty29
+crw--w----.  1 root tty       4,   3 feb 27 08:36 tty3
+crw--w----.  1 root tty       4,  30 feb 27 08:36 tty30
+crw--w----.  1 root tty       4,  31 feb 27 08:36 tty31
+crw--w----.  1 root tty       4,  32 feb 27 08:36 tty32
+crw--w----.  1 root tty       4,  33 feb 27 08:36 tty33
+crw--w----.  1 root tty       4,  34 feb 27 08:36 tty34
+crw--w----.  1 root tty       4,  35 feb 27 08:36 tty35
+crw--w----.  1 root tty       4,  36 feb 27 08:36 tty36
+crw--w----.  1 root tty       4,  37 feb 27 08:36 tty37
+crw--w----.  1 root tty       4,  38 feb 27 08:36 tty38
+crw--w----.  1 root tty       4,  39 feb 27 08:36 tty39
+crw--w----.  1 root tty       4,   4 feb 27 08:36 tty4
+crw--w----.  1 root tty       4,  40 feb 27 08:36 tty40
+crw--w----.  1 root tty       4,  41 feb 27 08:36 tty41
+crw--w----.  1 root tty       4,  42 feb 27 08:36 tty42
+crw--w----.  1 root tty       4,  43 feb 27 08:36 tty43
+crw--w----.  1 root tty       4,  44 feb 27 08:36 tty44
+crw--w----.  1 root tty       4,  45 feb 27 08:36 tty45
+crw--w----.  1 root tty       4,  46 feb 27 08:36 tty46
+crw--w----.  1 root tty       4,  47 feb 27 08:36 tty47
+crw--w----.  1 root tty       4,  48 feb 27 08:36 tty48
+crw--w----.  1 root tty       4,  49 feb 27 08:36 tty49
+crw--w----.  1 root tty       4,   5 feb 27 08:36 tty5
+crw--w----.  1 root tty       4,  50 feb 27 08:36 tty50
+crw--w----.  1 root tty       4,  51 feb 27 08:36 tty51
+crw--w----.  1 root tty       4,  52 feb 27 08:36 tty52
+crw--w----.  1 root tty       4,  53 feb 27 08:36 tty53
+crw--w----.  1 root tty       4,  54 feb 27 08:36 tty54
+crw--w----.  1 root tty       4,  55 feb 27 08:36 tty55
+crw--w----.  1 root tty       4,  56 feb 27 08:36 tty56
+crw--w----.  1 root tty       4,  57 feb 27 08:36 tty57
+crw--w----.  1 root tty       4,  58 feb 27 08:36 tty58
+crw--w----.  1 root tty       4,  59 feb 27 08:36 tty59
+crw--w----.  1 root tty       4,   6 feb 27 08:36 tty6
+crw--w----.  1 root tty       4,  60 feb 27 08:36 tty60
+crw--w----.  1 root tty       4,  61 feb 27 08:36 tty61
+crw--w----.  1 root tty       4,  62 feb 27 08:36 tty62
+crw--w----.  1 root tty       4,  63 feb 27 08:36 tty63
+crw--w----.  1 root tty       4,   7 feb 27 08:36 tty7
+crw--w----.  1 root tty       4,   8 feb 27 08:36 tty8
+crw--w----.  1 root tty       4,   9 feb 27 08:36 tty9
+crw-rw----.  1 root dialout   4,  64 feb 27 08:36 ttyS0
+crw-rw----.  1 root dialout   4,  65 feb 27 08:36 ttyS1
+crw-rw----.  1 root dialout   4,  66 feb 27 08:36 ttyS2
+crw-rw----.  1 root dialout   4,  67 feb 27 08:36 ttyS3
+crw-------.  1 root root     10, 239 feb 27 08:36 uhid
+crw-------.  1 root root     10, 223 feb 27 08:36 uinput
+crw-rw-rw-.  1 root root      1,   9 feb 27 08:36 urandom
+crw-------.  1 root root    251,   0 feb 27 08:36 usbmon0
+crw-------.  1 root root    251,   1 feb 27 08:36 usbmon1
+crw-------.  1 root root    251,   2 feb 27 08:36 usbmon2
+crw-------.  1 root root    251,   3 feb 27 08:36 usbmon3
+crw-------.  1 root root    251,   4 feb 27 08:36 usbmon4
+crw-------.  1 root root    251,   5 feb 27 08:36 usbmon5
+crw-rw----.  1 root tty       7,   0 feb 27 08:36 vcs
+crw-rw----.  1 root tty       7,   1 feb 27 08:36 vcs1
+crw-rw----.  1 root tty       7,   2 feb 27 08:36 vcs2
+crw-rw----.  1 root tty       7,   3 feb 27 08:36 vcs3
+crw-rw----.  1 root tty       7,   4 feb 27 08:36 vcs4
+crw-rw----.  1 root tty       7,   5 feb 27 08:36 vcs5
+crw-rw----.  1 root tty       7,   6 feb 27 08:36 vcs6
+crw-rw----.  1 root tty       7, 128 feb 27 08:36 vcsa
+crw-rw----.  1 root tty       7, 129 feb 27 08:36 vcsa1
+crw-rw----.  1 root tty       7, 130 feb 27 08:36 vcsa2
+crw-rw----.  1 root tty       7, 131 feb 27 08:36 vcsa3
+crw-rw----.  1 root tty       7, 132 feb 27 08:36 vcsa4
+crw-rw----.  1 root tty       7, 133 feb 27 08:36 vcsa5
+crw-rw----.  1 root tty       7, 134 feb 27 08:36 vcsa6
+crw-------.  1 root root     10,  63 feb 27 08:36 vga_arbiter
+crw-------.  1 root root     10, 238 feb 27 08:36 vhost-net
+crw-rw-rw-.  1 root root      1,   5 feb 27 08:36 zero
+
+/etc:
+total 2300
+drwxr-xr-x. 129 root root    12288 feb 27 09:38 .
+drwxr-xr-x.  19 root root     4096 feb 27 08:37 ..
+drwxr-xr-x.   3 root root     4096 ene 29  2014 abrt
+-rw-r--r--.   1 root root       44 may 14  2013 adjtime
+-rw-r--r--.   1 root root     1518 ago  6  2012 aliases
+-rw-r-----.   1 root smmsp   12288 jul 25  2013 aliases.db
+drwxr-xr-x.   2 root root     4096 ene  9  2013 alsa
+drwxr-xr-x.   2 root root     4096 feb 11  2015 alternatives
+-rw-r--r--.   1 root root      541 nov 27  2012 anacrontab
+-rw-r--r--.   1 root root      245 jun 17  2013 anthy-conf
+-rw-r--r--.   1 root root       55 dic  3  2012 asound.conf
+-rw-r--r--.   1 root root        1 nov  1  2012 at.deny
+drwxr-xr-x.   2 root root     4096 jul 25  2013 at-spi2
+drwxr-xr-x.   4 root root     4096 ene  9  2013 avahi
+drwxr-xr-x.   2 root root     4096 ene 29  2014 bash_completion.d
+-rw-r--r--.   1 root root     2713 ago  6  2012 bashrc
+drwxr-xr-x.   2 root root     4096 oct 29  2013 binfmt.d
+drwxr-xr-x.   2 root root     4096 jul 25  2013 bluetooth
+drwxr-xr-x.   2 root root    12288 jul 25  2013 brltty
+-rw-r--r--.   1 root root    19937 ene  8  2013 brltty.conf
+drwxr-xr-x.   2 root root     4096 jul 18  2012 chkconfig.d
+-rw-r--r--.   1 root root     1165 ago  9  2013 chrony.conf
+-rw-r-----.   1 root chrony     61 may 14  2013 chrony.keys
+drwxr-xr-x.   2 root root     4096 jul 25  2013 cifs-utils
+-rw-r--r--.   1 root root     1330 dic  5  2013 colord.conf
+drwxr-xr-x.   3 root root     4096 ago 29  2013 corosync
+drwxr-xr-x.   2 root root     4096 oct 10  2013 cron.d
+drwxr-xr-x.   2 root root     4096 jul 25  2013 cron.daily
+-rw-r--r--.   1 root root        0 nov 27  2012 cron.deny
+drwxr-xr-x.   2 root root     4096 ene  9  2013 cron.hourly
+drwxr-xr-x.   2 root root     4096 jul 19  2012 cron.monthly
+-rw-r--r--.   1 root root      451 jul 19  2012 crontab
+drwxr-xr-x.   2 root root     4096 jul 19  2012 cron.weekly
+-rw-------.   1 root root        0 may 14  2013 crypttab
+-rw-r--r--.   1 root root     1602 ago  6  2012 csh.cshrc
+-rw-r--r--.   1 root root      841 ago  6  2012 csh.login
+drwxr-xr-x.   5 root lp       4096 feb 27 09:35 cups
+drwxr-xr-x.   2 root root     4096 jul 25  2013 cupshelpers
+drwxr-xr-x.   4 root root     4096 jul 25  2013 dbus-1
+drwxr-xr-x.   4 root root     4096 ene  9  2013 dconf
+drwxr-xr-x.   2 root root     4096 oct 10  2013 default
+drwxr-xr-x.   2 root root     4096 abr 19  2013 depmod.d
+drwxr-x---.   3 root root     4096 jul  2  2013 dhcp
+-rw-r--r--.   1 root root     4916 ene 24  2013 DIR_COLORS
+-rw-r--r--.   1 root root     5586 ene 24  2013 DIR_COLORS.256color
+-rw-r--r--.   1 root root     4557 ene 24  2013 DIR_COLORS.lightbgcolor
+-rw-r--r--.   1 root root    25064 oct  3  2013 dnsmasq.conf
+drwxr-xr-x.   2 root root     4096 oct  3  2013 dnsmasq.d
+-rw-r--r--.   1 root root     1285 jul  2  2013 dracut.conf
+drwxr-xr-x.   2 root root     4096 oct 10  2013 dracut.conf.d
+-rw-r--r--.   1 root root     1804 jul  8  2013 drirc
+-rw-rw-r--.   1 root disk        0 ene 17  2013 dumpdates
+-rw-r--r--.   1 root root      112 jul 30  2012 e2fsck.conf
+-rw-r--r--.   1 root root        0 ago  6  2012 environment
+-rw-r--r--.   1 root root     1317 jul 19  2012 ethertypes
+-rw-r--r--.   1 root root        0 ago  6  2012 exports
+drwxr-xr-x.   2 root root     4096 abr  1  2013 exports.d
+lrwxrwxrwx.   1 root root       56 jul 25  2013 favicon.png -> /usr/share/icons/hicolor/16x16/apps/fedora-logo-icon.png
+drwxr-xr-x.   2 root root     4096 ene  9  2013 fcoe
+-rw-r--r--.   1 root root       34 dic 18  2013 fedora-release
+drwxr-xr-x.   2 root root     4096 ene  9  2013 festival
+-rw-r--r--.   1 root root       64 ago  6  2012 filesystems
+drwxr-x---.   5 root root     4096 ene 29  2014 firewalld
+drwxr-xr-x.   3 root root     4096 jul 25  2013 fonts
+drwxr-xr-x.   2 root root     4096 ene  9  2013 foomatic
+-rw-r--r--.   1 root root       20 ene  8  2013 fprintd.conf
+-rw-rw-r--.   1 root root      541 may 14  2013 fstab
+-rw-r--r--.   1 root root       38 jul  5  2013 fuse.conf
+drwxr-xr-x.   7 root root     4096 abr 17  2013 gconf
+drwxr-xr-x.   2 root root     4096 jul 26  2013 gcrypt
+-rw-r--r--.   1 root root      103 sep  9  2013 gdbinit
+drwxr-xr-x.   2 root root     4096 sep  9  2013 gdbinit.d
+drwxr-xr-x.   6 root root     4096 ene  9  2013 gdm
+-rw-r--r--.   1 root root      588 oct 22  2012 GeoIP.conf
+-rw-r--r--.   1 root root      588 oct 22  2012 GeoIP.conf.default
+drwxr-xr-x.   3 root root     4096 sep 25  2013 ghostscript
+drwxr-xr-x.   3 root root     4096 ene 28  2013 gnome-settings-daemon
+drwxr-xr-x.   2 root root     4096 oct  9  2013 gnupg
+-rw-r--r--.   1 root root       94 ago 20  2012 GREP_COLORS
+drwxr-xr-x.   4 root root     4096 mar 11  2013 groff
+-rw-r--r--.   1 root root      963 feb 19 14:10 group
+-rw-r--r--.   1 root root      943 feb 19 14:09 group-
+lrwxrwxrwx.   1 root root       22 jul 25  2013 grub2.cfg -> ../boot/grub2/grub.cfg
+lrwxrwxrwx.   1 root root       31 jul 25  2013 grub2-efi.cfg -> ../boot/efi/EFI/fedora/grub.cfg
+drwx------.   2 root root     4096 jul 25  2013 grub.d
+----------.   1 root root      778 feb 19 14:10 gshadow
+----------.   1 root root      762 feb 19 14:09 gshadow-
+-rw-r--r--.   1 root root      801 jul 20  2012 gssapi_mech.conf
+drwxr-xr-x.   3 root root     4096 jul 25  2013 gtk-2.0
+drwxr-xr-x.   2 root root     4096 jun 19  2013 gtk-3.0
+-rw-r--r--.   1 root root      876 ene  9  2013 hba.conf
+-rw-r--r--.   1 root root        9 ago  6  2012 host.conf
+-rw-rw-r--.   1 root root       10 sep 11  2013 hostname
+-rw-rw-r--.   1 root root       22 may 14  2013 hostname~
+-rw-r--r--.   1 root root      135 oct  2 16:40 hosts
+-rw-r--r--.   1 root root      370 ago  6  2012 hosts.allow
+-rw-r--r--.   1 root root      460 ago  6  2012 hosts.deny
+drwxr-xr-x.   2 root root     4096 ene 29  2014 hp
+-rw-r--r--.   1 root root     3580 jul 20  2012 idmapd.conf
+drwxr-xr-x.   2 root root     4096 ene  9  2013 init
+lrwxrwxrwx.   1 root root       11 ene  9  2013 init.d -> rc.d/init.d
+-rw-r--r--.   1 root root      490 mar 15  2013 inittab
+-rw-r--r--.   1 root root      942 ago  6  2012 inputrc
+drwxr-xr-x.   2 root root     4096 jul 25  2013 iproute2
+drwxr-xr-x.   2 root root     4096 ene  9  2013 iscsi
+-rw-r--r--.   1 root root       59 dic 18  2013 issue
+-rw-r--r--.   1 root root       58 dic 18  2013 issue.net
+drwxr-xr-x.   3 root root     4096 jul 25  2013 java
+drwxr-xr-x.   3 root root     4096 oct 16  2013 .java
+drwxr-xr-x.   2 root root     4096 dic 11  2012 jvm
+drwxr-xr-x.   2 root root     4096 dic 11  2012 jvm-commmon
+-rw-r--r--.   1 root root     5637 oct 10  2013 kdump.conf
+drwxr-xr-x.   3 root root     4096 oct 10  2013 kernel
+-rw-r--r--.   1 root root      432 may 13  2013 krb5.conf
+-rw-r--r--.   1 root root      478 sep  3  2013 ksmtuned.conf
+-rw-r--r--.   1 root root    83268 oct 16 19:28 ld.so.cache
+-rw-r--r--.   1 root root       28 ago 19  2013 ld.so.conf
+drwxr-xr-x.   2 root root     4096 ene 29  2014 ld.so.conf.d
+-rw-r--r--.   1 root root     3534 mar 19  2013 lftp.conf
+-rw-r-----.   1 root root      191 jul 29  2013 libaudit.conf
+drwxr-xr-x.   2 root root     4096 jul 31  2013 libibverbs.d
+drwxr-xr-x.   2 root root     4096 jul 25  2013 libnl
+drwxr-xr-x.   7 root root     4096 ene 29  2014 libreport
+-rw-r--r--.   1 root root     2391 nov  7  2012 libuser.conf
+drwx------.   4 root root     4096 oct 10  2013 libvirt
+-rw-rw-r--.   1 root root       19 may 14  2013 locale.conf
+lrwxrwxrwx.   1 root root       39 may 14  2013 localtime -> /usr/share/zoneinfo/America/Mexico_City
+-rw-r--r--.   1 root root     2028 ene 11  2013 login.defs
+-rw-r--r--.   1 root root      662 oct  4  2012 logrotate.conf
+drwxr-xr-x.   2 root root     4096 ene 29  2014 logrotate.d
+-rw-r--r--.   1 root root    14867 feb  6  2013 ltrace.conf
+drwxr-xr-x.   5 root root     4096 ene  9  2013 lvm
+-r--r--r--.   1 root root       33 ene  9  2013 machine-id
+-rw-r--r--.   1 root root      111 jul 27  2012 magic
+drwxr-xr-x.   2 root root     4096 jul 25  2013 mail
+-rw-r--r--.   1 root root      272 ago  5  2012 mailcap
+-rw-r--r--.   1 root root     5171 oct 30  2012 man_db.conf
+drwxr-xr-x.   2 root root     4096 jul 25  2013 maven
+drwxr-xr-x.   3 root root     4096 ene  9  2013 mcelog
+-rw-r--r--.   1 root root    50498 ago  5  2012 mime.types
+-rw-r--r--.   1 root root      956 jul 30  2012 mke2fs.conf
+drwxr-xr-x.   2 root root     4096 jul 25  2013 modprobe.d
+drwxr-xr-x.   3 root root     4096 ago 22  2013 modulefiles
+drwxr-xr-x.   2 root root     4096 oct 29  2013 modules-load.d
+-rw-r--r--.   1 root root        0 ago  6  2012 motd
+drwxr-xr-x.   2 root root     4096 ago 22  2013 mpich-x86_64
+lrwxrwxrwx.   1 root root       17 may 14  2013 mtab -> /proc/self/mounts
+-rw-r--r--.   1 root root     2620 jul 20  2012 mtools.conf
+drwxr-xr-x.   2 root root     4096 may 14  2013 multipath
+-rw-r--r--.   1 root root      767 may  2  2011 netconfig
+drwxr-xr-x.   6 root root     4096 ago 15  2013 NetworkManager
+-rw-r--r--.   1 root root       58 mar 15  2013 networks
+-rw-r--r--.   1 root root     3390 abr  1  2013 nfsmount.conf
+-rw-r--r--.   1 root root     1729 may 14  2013 nsswitch.conf
+-rw-r--r--.   1 root root     1733 ene  9  2013 nsswitch.conf.bak
+-rw-r--r--.   1 root root       91 dic  3  2012 numad.conf
+drwxr-xr-x.   2 root root     4096 ene  9  2013 obex-data-server
+drwxr-xr-x.   3 root root     4096 jul 25  2013 openldap
+drwxr-xr-x.   2 root root     4096 sep 12  2013 openvpn
+drwxr-xr-x.   2 root root     4096 jul 19  2012 opt
+-rw-r--r--.   1 root root      407 dic 18  2013 os-release
+drwxr-xr-x.   3 root root     4096 jul 25  2013 PackageKit
+drwxr-xr-x.   2 root root     4096 ene 29  2014 pam.d
+drwxr-xr-x.   2 root root     4096 ene  9  2013 pam_pkcs11
+-rw-r--r--.   1 root root     2342 feb 19 14:10 passwd
+-rw-r--r--.   1 root root     2289 feb 19 14:09 passwd-
+-rw-r--r--.   1 root root       99 mar 13  2010 passwdqc.conf
+drwxr-xr-x.   2 root root     4096 ene  9  2013 pcmcia
+drwxr-xr-x.   3 root root     4096 may 13  2013 pkcs11
+drwxr-xr-x.   8 root root     4096 ene  9  2013 pki
+drwxr-xr-x.   2 root root     4096 ene  9  2013 plymouth
+drwxr-xr-x.   5 root root     4096 ene  9  2013 pm
+drwxr-xr-x.   3 root root     4096 sep 18  2013 polkit-1
+drwxr-xr-x.   2 root root     4096 ago  2  2012 popt.d
+drwxr-xr-x.   3 root root     4096 jul 25  2013 ppp
+-rw-r--r--.   1 root root   452715 feb 27 09:38 prelink.cache
+-rw-r--r--.   1 root root      789 nov 29  2012 prelink.conf
+drwxr-xr-x.   2 root root     4096 jul 25  2013 prelink.conf.d
+-rw-r--r--.   1 root root      233 ago  6  2012 printcap
+-rw-r--r--.   1 root root     1826 feb 11  2015 profile
+drwxr-xr-x.   2 root root     4096 ene 29  2014 profile.d
+-rw-r--r--.   1 root root    12288 feb 11  2015 .profile.swp
+-rw-r--r--.   1 root root     6545 ago  6  2012 protocols
+drwxr-xr-x.   2 root root     4096 ene 29  2014 pulse
+drwxr-xr-x.   2 root root     4096 jul 25  2013 purple
+-rw-------.   1 root root        0 ene  9  2013 .pwd.lock
+drwxr-xr-x.   2 root root     4096 oct 10  2013 qemu
+-rw-r--r--.   1 root root      433 ago  7  2012 radvd.conf
+lrwxrwxrwx.   1 root root       10 jul 25  2013 rc0.d -> rc.d/rc0.d
+lrwxrwxrwx.   1 root root       10 jul 25  2013 rc1.d -> rc.d/rc1.d
+lrwxrwxrwx.   1 root root       10 jul 25  2013 rc2.d -> rc.d/rc2.d
+lrwxrwxrwx.   1 root root       10 jul 25  2013 rc3.d -> rc.d/rc3.d
+lrwxrwxrwx.   1 root root       10 jul 25  2013 rc4.d -> rc.d/rc4.d
+lrwxrwxrwx.   1 root root       10 jul 25  2013 rc5.d -> rc.d/rc5.d
+lrwxrwxrwx.   1 root root       10 jul 25  2013 rc6.d -> rc.d/rc6.d
+drwxr-xr-x.  10 root root     4096 mar 15  2013 rc.d
+lrwxrwxrwx.   1 root root       14 ene 29  2014 redhat-release -> fedora-release
+-rw-r--r--.   1 root root     1787 oct  4  2013 request-key.conf
+drwxr-xr-x.   2 root root     4096 oct  4  2013 request-key.d
+-rw-r--r--.   1 root root       54 feb 27 08:36 resolv.conf
+lrwxrwxrwx.   1 root root       11 jul 25  2013 rmt -> ../sbin/rmt
+-rw-r--r--.   1 root root     1634 ago 19  2013 rpc
+drwxr-xr-x.   2 root root     4096 ago 21  2015 rpm
+-rw-r--r--.   1 root root     2885 abr  3  2013 rsyslog.conf
+drwxr-xr-x.   2 root root     4096 ene 29  2014 rsyslog.d
+-rw-r--r--.   1 root root      843 mar 15  2013 rwtab
+drwxr-xr-x.   2 root root     4096 ene 29  2014 rwtab.d
+drwxr-xr-x.   2 root root     4096 ene 29  2014 samba
+drwxr-xr-x.   3 root root     4096 ene 29  2014 sane.d
+drwxr-xr-x.   2 root root     4096 oct 10  2013 sasl2
+-rw-------.   1 root root      155 ago  6  2012 securetty
+drwxr-xr-x.   6 root root     4096 ago  8  2013 security
+drwxr-xr-x.   3 root root     4096 jul 25  2013 selinux
+-rw-r--r--.   1 root root   659878 ago  6  2012 services
+-rw-r--r--.   1 root root      216 mar 25  2013 sestatus.conf
+drwxr-xr-x.   2 root root     4096 ene  9  2013 setuptool.d
+drwxr-xr-x.   3 root root     4096 ene  9  2013 sgml
+----------.   1 root root     1515 feb 19 14:10 shadow
+----------.   1 root root     1385 feb 19 14:09 shadow-
+-rw-r--r--.   1 root root       32 ago  6  2012 shells
+drwxr-xr-x.   3 root root     4096 jul 25  2013 skel
+-rw-r--r--.   1 root root     1272 feb 14  2013 smi.conf
+drwxr-xr-x.   2 root root     4096 abr 21  2013 smrsh
+-rw-r--r--.   1 root root      260 jul 21  2012 sos.conf
+drwxr-xr-x.   4 root root     4096 ene  9  2013 speech-dispatcher
+drwxr-xr-x.   2 root root     4096 ene 29  2014 ssh
+drwxr-xr-x.   2 root root     4096 ene 29  2014 ssl
+drwx------.   2 root root     4096 nov  6  2013 sssd
+-rw-r--r--.   1 root root      212 mar 15  2013 statetab
+drwxr-xr-x.   2 root root     4096 mar 15  2013 statetab.d
+drwxr-xr-x.   2 root root     4096 ago  5  2013 stunnel
+drwxr-xr-x.   2 root root     4096 nov 26  2013 subversion
+-r--r-----.   1 root root     3364 jun  5  2015 sudoers
+drwxr-x---.   2 root root     4096 feb 28  2013 sudoers.d
+drwxr-xr-x.   6 root root     4096 feb 27 08:35 sysconfig
+-rw-r--r--.   1 root root      225 mar 15  2013 sysctl.conf
+drwxr-xr-x.   2 root root     4096 oct 29  2013 sysctl.d
+drwxr-xr-x.   4 root root     4096 ene 29  2014 systemd
+lrwxrwxrwx.   1 root root       14 ene 29  2014 system-release -> fedora-release
+-rw-r--r--.   1 root root       31 dic 18  2013 system-release-cpe
+-rw-------.   1 tss  tss      6411 sep 25  2012 tcsd.conf
+drwxr-xr-x.   2 root root     4096 may 13  2013 terminfo
+drwxr-xr-x.   2 root root     4096 oct 29  2013 tmpfiles.d
+-rw-r--r--.   1 root root       45 may 10  2012 Trolltech.conf
+-rw-r--r--.   1 root root      375 oct 31  2013 trusted-key.key
+drwxr-xr-x.   3 root root     4096 ene 29  2014 udev
+drwxr-xr-x.   2 root root     4096 jul 25  2013 udisks2
+-rw-r--r--.   1 root root      508 sep 21  2012 updatedb.conf
+drwxr-xr-x.   2 root root     4096 jul 25  2013 UPower
+-rw-r--r--.   1 root root      889 nov  9  2012 usb_modeswitch.conf
+drwxr-xr-x.   2 root root    12288 ene  9  2013 usb_modeswitch.d
+-rw-rw-r--.   1 root root       12 may 14  2013 vconsole.conf
+-rw-r--r--.   1 root root       51 ago  1  2013 vdpau_wrapper.cfg
+-rw-r--r--.   1 root root     1982 sep 11  2013 virc
+drwxr-xr-x.   2 root root     4096 ene  9  2013 vpnc
+-rw-r--r--.   1 root root     4479 jul 15  2013 wgetrc
+drwxr-xr-x.   2 root root     4096 ago  8  2013 wpa_supplicant
+-rw-r--r--.   1 root root        0 jul 22  2012 wvdial.conf
+drwxr-xr-x.   6 root root     4096 ene  9  2013 X11
+drwxr-xr-x.   6 root root     4096 ago 15  2013 xdg
+drwxr-xr-x.   2 root root     4096 ene  9  2013 xinetd.d
+drwxr-xr-x.   2 root root     4096 ene  9  2013 xml
+drwxr-xr-x.   5 root root     4096 jul 25  2013 yum
+-rw-r--r--.   1 root root      813 abr  4  2013 yum.conf
+drwxr-xr-x.   2 root root     4096 ene 29  2014 yum.repos.d
+
+/home:
+total 36
+drwxr-xr-x.  6 root        root         4096 feb 19 14:10 .
+drwxr-xr-x. 19 root        root         4096 feb 27 08:37 ..
+drwx------. 16 diplomado12 diplomado12  4096 feb 27 10:12 diplomado12
+drwx------. 16 labintel12  labintel12   4096 feb 25 09:17 labintel12
+drwx------.  2 root        root        16384 may 14  2013 lost+found
+drwx------. 17 us_intel    us_intel     4096 feb 19 13:55 us_intel
+ls: no se puede abrir el directorio /lost+found: Permiso denegado
+
+/media:
+total 8
+drwxr-xr-x.  2 root root 4096 jul 19  2012 .
+drwxr-xr-x. 19 root root 4096 feb 27 08:37 ..
+
+/mnt:
+total 8
+drwxr-xr-x.  2 root root 4096 jul 19  2012 .
+drwxr-xr-x. 19 root root 4096 feb 27 08:37 ..
+
+/mpich:
+total 8
+drwxr-xr-x.  2 root root 4096 jul 23  2013 .
+drwxr-xr-x. 19 root root 4096 feb 27 08:37 ..
+
+/opt:
+total 12
+drwxr-xr-x.  3 root root 4096 oct  2 16:38 .
+drwxr-xr-x. 19 root root 4096 feb 27 08:37 ..
+drwxr-xr-x. 30 root root 4096 oct  2 16:41 lampp
+
+/proc:
+total 4
+dr-xr-xr-x. 162 root        root                      0 feb 27 08:35 .
+drwxr-xr-x.  19 root        root                   4096 feb 27 08:37 ..
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 1
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 10
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 11
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 1173
+dr-xr-xr-x.   8 rpc         rpc                       0 feb 27 08:36 1177
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 12
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 1270
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 13
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 136
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 1384
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 14
+dr-xr-xr-x.   8 root        diplomado12               0 feb 27 08:36 1411
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1420
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1422
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1431
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1432
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1494
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1497
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 15
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1501
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1595
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1599
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 16
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1603
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1613
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1627
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1634
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1638
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1642
+dr-xr-xr-x.   8 colord      colord                    0 feb 27 08:36 1646
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1650
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 1655
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1662
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1666
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1670
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1674
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1679
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1695
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 17
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1701
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1745
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1758
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1763
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1769
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1773
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1781
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:36 1795
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 18
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:37 1825
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 19
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:38 1912
+dr-xr-xr-x.   8 diplomado12 utmp                      0 feb 27 08:38 1918
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:38 1919
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:38 1984
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:38 1990
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:38 1998
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 2
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 20
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 08:38 2007
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 21
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:57 2145
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 22
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 228
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 23
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 231
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 238
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 24
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 25
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 26
+dr-xr-xr-x.   8 root        root                      0 feb 27 09:38 2668
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 282
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 283
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 284
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 286
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 29
+dr-xr-xr-x.   8 root        root                      0 feb 27 10:06 2953
+dr-xr-xr-x.   8 root        root                      0 feb 27 10:12 2989
+dr-xr-xr-x.   8 root        root                      0 feb 27 10:12 2995
+dr-xr-xr-x.   8 diplomado12 diplomado12               0 feb 27 10:12 2996
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 3
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 30
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 304
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 305
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 306
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 31
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 32
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 33
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 376
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 377
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 42
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 44
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 45
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 469
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 47
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 470
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 48
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 49
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 491
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 492
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 493
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 498
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 499
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 5
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 500
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 514
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 52
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 521
+dr-xr-xr-x.   8 chrony      chrony                    0 feb 27 08:36 526
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 527
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 53
+dr-xr-xr-x.   8 rtkit       rtkit                     0 feb 27 08:36 530
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 531
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 532
+dr-xr-xr-x.   8 avahi       avahi                     0 feb 27 08:36 533
+dr-xr-xr-x.   8 dbus        dbus                      0 feb 27 08:36 535
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 538
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 539
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 541
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 545
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 546
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 548
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 567
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 585
+dr-xr-xr-x.   8 avahi       avahi                     0 feb 27 08:36 587
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 59
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 6
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 608
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 613
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 614
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 615
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 616
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 617
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 620
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 622
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 623
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 624
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 626
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 629
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 635
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 636
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 640
+dr-xr-xr-x.   8 polkitd     polkitd                   0 feb 27 08:36 678
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 694
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 7
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 717
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 721
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:36 732
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 8
+dr-xr-xr-x.   8 root        root                      0 feb 27 08:35 9
+dr-xr-xr-x.   2 root        root                      0 feb 27 10:12 acpi
+dr-xr-xr-x.   5 root        root                      0 feb 27 10:12 asound
+-r--r--r--.   1 root        root                      0 feb 27 10:12 buddyinfo
+dr-xr-xr-x.   4 root        root                      0 feb 27 10:12 bus
+-r--r--r--.   1 root        root                      0 feb 27 10:12 cgroups
+-r--r--r--.   1 root        root                      0 feb 27 10:12 cmdline
+-r--r--r--.   1 root        root                      0 feb 27 10:12 consoles
+-r--r--r--.   1 root        root                      0 feb 27 10:12 cpuinfo
+-r--r--r--.   1 root        root                      0 feb 27 10:12 crypto
+-r--r--r--.   1 root        root                      0 feb 27 10:12 devices
+-r--r--r--.   1 root        root                      0 feb 27 10:12 diskstats
+-r--r--r--.   1 root        root                      0 feb 27 10:12 dma
+dr-xr-xr-x.   3 root        root                      0 feb 27 10:12 dri
+dr-xr-xr-x.   2 root        root                      0 feb 27 10:12 driver
+-r--r--r--.   1 root        root                      0 feb 27 10:12 execdomains
+-r--r--r--.   1 root        root                      0 feb 27 10:12 fb
+-r--r--r--.   1 root        root                      0 feb 27 10:12 filesystems
+dr-xr-xr-x.   5 root        root                      0 feb 27 10:12 fs
+-r--r--r--.   1 root        root                      0 feb 27 10:12 interrupts
+-r--r--r--.   1 root        root                      0 feb 27 10:12 iomem
+-r--r--r--.   1 root        root                      0 feb 27 10:12 ioports
+dr-xr-xr-x.  25 root        root                      0 feb 27 10:12 irq
+-r--r--r--.   1 root        root                      0 feb 27 10:12 kallsyms
+-r--------.   1 root        root        140737486262272 feb 27 10:12 kcore
+-r--r--r--.   1 root        root                      0 feb 27 10:12 keys
+-r--r--r--.   1 root        root                      0 feb 27 10:12 key-users
+-r--------.   1 root        root                      0 feb 27 08:36 kmsg
+-r--------.   1 root        root                      0 feb 27 10:12 kpagecount
+-r--------.   1 root        root                      0 feb 27 10:12 kpageflags
+-r--r--r--.   1 root        root                      0 feb 27 10:12 loadavg
+-r--r--r--.   1 root        root                      0 feb 27 10:12 locks
+-r--r--r--.   1 root        root                      0 feb 27 10:12 mdstat
+-r--r--r--.   1 root        root                      0 feb 27 10:12 meminfo
+-r--r--r--.   1 root        root                      0 feb 27 10:12 misc
+-r--r--r--.   1 root        root                      0 feb 27 10:12 modules
+lrwxrwxrwx.   1 root        root                     11 feb 27 10:12 mounts -> self/mounts
+-rw-r--r--.   1 root        root                      0 feb 27 08:36 mtrr
+lrwxrwxrwx.   1 root        root                      8 feb 27 10:12 net -> self/net
+-r--r--r--.   1 root        root                      0 feb 27 10:12 pagetypeinfo
+-r--r--r--.   1 root        root                      0 feb 27 10:12 partitions
+-r--r--r--.   1 root        root                      0 feb 27 10:12 sched_debug
+dr-xr-xr-x.   3 root        root                      0 feb 27 10:12 scsi
+lrwxrwxrwx.   1 root        root                      0 feb 27 08:35 self -> 2996
+-r--------.   1 root        root                      0 feb 27 10:12 slabinfo
+-r--r--r--.   1 root        root                      0 feb 27 10:12 softirqs
+-r--r--r--.   1 root        root                      0 feb 27 10:12 stat
+-r--r--r--.   1 root        root                      0 feb 27 08:35 swaps
+dr-xr-xr-x.   1 root        root                      0 feb 27 08:35 sys
+--w-------.   1 root        root                      0 feb 27 10:12 sysrq-trigger
+dr-xr-xr-x.   2 root        root                      0 feb 27 10:12 sysvipc
+-r--r--r--.   1 root        root                      0 feb 27 10:12 timer_list
+-rw-r--r--.   1 root        root                      0 feb 27 10:12 timer_stats
+dr-xr-xr-x.   4 root        root                      0 feb 27 10:12 tty
+-r--r--r--.   1 root        root                      0 feb 27 10:12 uptime
+-r--r--r--.   1 root        root                      0 feb 27 10:12 version
+-r--------.   1 root        root                      0 feb 27 10:12 vmallocinfo
+-r--r--r--.   1 root        root                      0 feb 27 10:12 vmstat
+-r--r--r--.   1 root        root                      0 feb 27 10:12 zoneinfo
+ls: no se puede abrir el directorio /root: Permiso denegado
+
+/run:
+total 52
+drwxr-xr-x. 36 root  root    1120 feb 27 08:36 .
+drwxr-xr-x. 19 root  root    4096 feb 27 08:37 ..
+drwxr-xr-x.  2 root  root     100 feb 27 08:36 abrt
+-rw-r--r--.  1 root  root       4 feb 27 08:36 atd.pid
+drwxr-xr-x.  2 avahi avahi     80 feb 27 08:36 avahi-daemon
+-rw-r--r--.  1 root  root       4 feb 27 08:36 chronyd.pid
+drwxr-xr-x.  2 root  root      80 feb 27 08:36 console
+-rw-r--r--.  1 root  root       4 feb 27 08:36 crond.pid
+----------.  1 root  root       0 feb 27 08:36 cron.reboot
+drwxr-xr-x.  3 root  lp        80 feb 27 08:36 cups
+drwxr-xr-x.  2 root  root      60 feb 27 08:36 dbus
+prw-------.  1 root  root       0 feb 27 08:35 dmeventd-client
+prw-------.  1 root  root       0 feb 27 08:35 dmeventd-server
+drwxr-xr-x.  2 root  root      40 feb 27 08:36 faillock
+drwx--x--x.  4 root  root     100 feb 27 08:36 gdm
+-rw-r--r--.  1 root  root       4 feb 27 08:36 gdm.pid
+drwxr-xr-x.  3 root  root     100 feb 27 08:35 initramfs
+-rw-------.  1 root  root       4 feb 27 08:36 iscsid.pid
+-rw-r--r--.  1 root  root       4 feb 27 08:36 iscsiuio.pid
+-rw-r--r--.  1 root  root       4 feb 27 08:36 ksmtune.pid
+drwxr-xr-x.  2 root  root      40 feb 27 08:36 libgpod
+drwxr-xr-x.  3 root  root     100 feb 27 08:36 libvirt
+-rw-r--r--.  1 root  root       4 feb 27 08:36 libvirtd.pid
+drwxr-xr-x.  6 root  root     120 feb 27 09:37 lock
+drwxr-xr-x.  3 root  root      60 feb 27 08:35 log
+drwx------.  2 root  root      60 feb 27 08:35 lvm
+srwxr-xr-x.  1 root  root       0 feb 27 08:36 mcelog-client
+-rw-r--r--.  1 root  root       3 feb 27 08:36 mcelog.pid
+drwx--x---.  2 root  root      40 feb 27 08:35 mdadm
+drwxr-xr-x.  2 root  root      80 feb 27 08:35 mount
+drwxrwxr-x.  2 root  root      40 feb 27 08:36 netreport
+drwxr-xr-x.  2 root  root      40 feb 27 08:36 NetworkManager
+drwx--x---.  2 root  openvpn   40 feb 27 08:36 openvpn
+drwxr-xr-x.  2 root  root      40 feb 27 08:36 plymouth
+drwxr-xr-x.  4 root  root      80 feb 27 08:36 pm-utils
+drwxr-xr-x.  2 root  root      40 feb 27 08:36 ppp
+drwxr-x---.  2 root  root      40 feb 27 08:36 pptp
+drwxr-xr-x.  2 radvd radvd     40 feb 27 08:36 radvd
+-rw-r--r--.  1 root  root       4 feb 27 08:36 restorecond.pid
+-r--r--r--.  1 root  root       0 feb 27 08:35 rpcbind.lock
+srw-rw-rw-.  1 root  root       0 feb 27 08:36 rpcbind.sock
+-rw-r--r--.  1 root  root       0 feb 27 08:35 rpc.statd.pid
+drwxr-xr-x.  2 root  root      40 feb 27 08:36 samba
+drwxr-xr-x.  2 root  root      40 feb 27 08:36 saslauthd
+srw-rw-rw-.  1 root  root       0 feb 27 08:36 sdp
+drwxr-xr-x.  2 root  root      40 feb 27 08:36 sepermit
+drwxr-xr-x.  2 root  root      40 feb 27 08:36 setrans
+drwxr-xr-x.  2 root  root      40 feb 27 08:36 spice-vdagentd
+drwx------.  2 root  root      40 feb 27 08:36 svnserve
+-rw-r--r--.  1 root  root       4 feb 27 08:36 syslogd.pid
+drwxr-xr-x. 13 root  root     300 feb 27 08:36 systemd
+drwxr-xr-x.  6 root  root     160 feb 27 08:36 udev
+drwx------.  2 root  root      40 feb 27 08:36 udisks2
+drwxr-xr-x.  3 root  root      60 feb 27 10:01 user
+-rw-rw-r--.  1 root  utmp    1536 feb 27 08:38 utmp
+drwxr-xr-x.  2 root  root      40 feb 27 08:36 vpnc
+
+/srv:
+total 8
+drwxr-xr-x.  2 root root 4096 jul 19  2012 .
+drwxr-xr-x. 19 root root 4096 feb 27 08:37 ..
+
+/sys:
+total 4
+dr-xr-xr-x.  13 root root    0 feb 27 08:35 .
+drwxr-xr-x.  19 root root 4096 feb 27 08:37 ..
+drwxr-xr-x.   2 root root    0 feb 27 08:35 block
+drwxr-xr-x.  27 root root    0 feb 27 08:35 bus
+drwxr-xr-x.  56 root root    0 feb 27 08:35 class
+drwxr-xr-x.   4 root root    0 feb 27 08:35 dev
+drwxr-xr-x.  12 root root    0 feb 27 08:35 devices
+drwxr-xr-x.   5 root root    0 feb 27 08:35 firmware
+drwxr-xr-x.   7 root root    0 feb 27 08:35 fs
+drwxr-xr-x.   2 root root    0 feb 27 08:35 hypervisor
+drwxr-xr-x.   8 root root    0 feb 27 08:35 kernel
+drwxr-xr-x. 163 root root    0 feb 27 08:35 module
+drwxr-xr-x.   2 root root    0 feb 27 08:36 power
+
+/tmp:
+total 8
+drwxrwxrwt. 13 root        root         280 feb 27 10:06 .
+drwxr-xr-x. 19 root        root        4096 feb 27 08:37 ..
+drwx------.  2 diplomado12 diplomado12   60 feb 27 08:36 .esd-1004
+drwxrwxrwt.  2 root        root          40 feb 27 08:36 .font-unix
+drwxrwxrwt.  2 root        root          60 feb 27 08:36 .ICE-unix
+drwx------.  2 gdm         gdm           40 feb 27 08:37 pulse-0EjntT7XSVqm
+drwx------.  2 diplomado12 diplomado12  100 feb 27 08:36 pulse-NiNBvvZHaGhA
+drwx------.  3 root        root          60 feb 27 08:36 systemd-private-g6XRg9
+drwx------.  3 root        root          60 feb 27 08:36 systemd-private-oqoB25
+drwx------.  3 root        root          60 feb 27 08:36 systemd-private-VErM1j
+drwxrwxrwt.  2 root        root          40 feb 27 08:36 .Test-unix
+-r--r--r--.  1 root        root          11 feb 27 08:36 .X0-lock
+drwxrwxrwt.  2 root        root          60 feb 27 08:36 .X11-unix
+drwxrwxrwt.  2 root        root          40 feb 27 08:36 .XIM-unix
+
+/usr:
+total 240
+drwxr-xr-x.  14 root root   4096 dic 17  2014 .
+drwxr-xr-x.  19 root root   4096 feb 27 08:37 ..
+dr-xr-xr-x.   2 root root  53248 oct 30 17:45 bin
+drwxr-xr-x.   2 root root   4096 jul 19  2012 etc
+drwxr-xr-x.   2 root root   4096 jul 19  2012 games
+drwxr-xr-x.  36 root root   4096 ene 29  2014 include
+drwxr-xr-x.   3 root root   4096 feb 11  2015 java
+dr-xr-xr-x.  36 root root   4096 oct 10  2013 lib
+dr-xr-xr-x. 163 root root 102400 oct 30 17:45 lib64
+drwxr-xr-x.  32 root root  12288 oct 30 17:45 libexec
+drwxr-xr-x.  12 root root   4096 ene  9  2013 local
+dr-xr-xr-x.   2 root root  20480 oct 30 17:45 sbin
+drwxr-xr-x. 273 root root  12288 oct 16 19:27 share
+drwxr-xr-x.   4 root root   4096 ene  9  2013 src
+lrwxrwxrwx.   1 root root     10 ene  9  2013 tmp -> ../var/tmp
+
+/var:
+total 84
+drwxr-xr-x. 21 root root 4096 feb 27 08:35 .
+drwxr-xr-x. 19 root root 4096 feb 27 08:37 ..
+drwxr-xr-x.  2 root root 4096 ene 16  2013 account
+drwxr-xr-x.  2 root root 4096 jul 19  2012 adm
+drwxr-xr-x. 14 root root 4096 ago 15  2013 cache
+drwxr-xr-x.  2 root root 4096 feb 26  2013 crash
+drwxr-xr-x.  2 root root 4096 jun 26  2013 cvs
+drwxr-xr-x.  3 root root 4096 oct 10  2013 db
+drwxr-xr-x.  3 root root 4096 ene  9  2013 empty
+drwxr-xr-x.  2 root root 4096 jul 19  2012 games
+drwxrwx--T.  2 root gdm  4096 dic 20  2012 gdm
+drwxr-xr-x.  2 root root 4096 jul 19  2012 gopher
+drwxr-xr-x. 48 root root 4096 feb 27 08:35 lib
+drwxr-xr-x.  2 root root 4096 jul 19  2012 local
+lrwxrwxrwx.  1 root root   11 ene  9  2013 lock -> ../run/lock
+drwxr-xr-x. 16 root root 4096 feb 27 08:36 log
+lrwxrwxrwx.  1 root root   10 ene  9  2013 mail -> spool/mail
+drwxr-xr-x.  2 root root 4096 jul 19  2012 nis
+drwxr-xr-x.  2 root root 4096 jul 19  2012 opt
+drwxr-xr-x.  2 root root 4096 jul 19  2012 preserve
+lrwxrwxrwx.  1 root root    6 ene  9  2013 run -> ../run
+drwxr-xr-x. 14 root root 4096 ene  9  2013 spool
+drwxrwxrwt. 44 root root 4096 feb 27 09:31 tmp
+drwxr-xr-x.  2 root root 4096 jul 19  2012 yp

@@ -1,0 +1,50 @@
+cabecera CabeceraPrograma_13.
+Makefile: Este Makefile me genera el ejecutable del Programa_13 el cual calcula el perimetro y area de un rectangulo usando una CabeceraPrograma_13. 
+
+Programa_01: Hola Mundo.
+Programa_02: Programa que me retorna el pid de un proceso mediante getpid().
+Programa_03: Programa que regresa el pid mediante getpid().
+Programa_04: Mediante fork imprimo dos veces el mismo mensaje.
+Programa_05: Mediante fork genero un proceso hijo y muestro el pid de cada proceso (mediante getpid).
+Programa_06: XXX.
+Programa_07: XXX
+Programa_08: Mediante fork duplico el mensaje.
+Programa_09: Programa que muestra los valores que cacha los valores que retorna fork (fork regresa al proceso padre el pid del proceso hijo y le asigan un pid =0 al hijo).
+Programa_10: Programa que genera dos procesos hijos y cada uno de ellos imprime un mensaje diferente junto con el valor que regresa fork durante su ejecucion.
+Programa_11:
+Programa_ 12: Programa que calcula el permitro y area de un rectangulo por medio de funciones.
+Programa_13: Programa que calcula el perimetro y area de un rectangulo mediante la 
+Programa_15: Programa en el cual se obliga al proceso padre a terminar antes que su hijo, por medio de un retardo.
+Programa_16: Programa que utiliza la llamada al sistema wait con lo que el padre espera su ejecucion hasta que el hijo termine.
+Programa_17: Muestra el uso de wait(&recibe) y exit(8). Exit termina el proceso hijo y manda un 8 al padre, wait recibe ese valor en recibe. Recordar tambien que a su vez cuando se ejecuta wait esta regresa el valor del pid del hijo
+Programa_18: Muestra el uso de wait(NULL) el cual regresa al padre el valor pid del hijo
+Programa_19: Programa que lee un arreglo con 5 elementos, y genera dos procesos hijos, el hijo 1 identifica al elemento menor y el hijo 2 al mayor. Esa info es pasada al padre, quien lo manda a pantalla.
+Programa_20: Programa que recorre un arreglo e imprime el elemento mayor.
+Programa_21: Programa que recorre un arreglo e imprime el elemento menor.
+Programa_22: Muestra el uso de strlen y sizeof para medir una cadena de caracteres.
+Programa_23: Mide una cadena de caracteres.
+Programa_24: Programa con dos procesos, el hijo escribe un mensaje y el padre lee ese mensaje.
+Programa_25: Programa con dos procesos, el padre escribe y el hijo lee. El padre termina antes que el hijo.
+Programa_26: Programa con un proceso hijo, el padre escribe y el hijo lee, el padre utiliza un wait para no adelantarse a la terminacion del hijo.
+Programa_27: Programa con dos procesos hijos, el hijo 1 le manda al padre HOLA y el padre lo lee, el padre manda LOLA al hijo 2, el hijo 2 lee LOLA. Se utilizan waits para detener al padre de acuerdo a mi conveniencia.
+Programa_28: Programa con dos procesos hijos, el hijo 1 envia un mensaje (teclado) al padre,el padre lo lee y lo envia al hijo 2, el hijo 2 lo presenta en pantalla. Se usan dos pipes para comunicar los procesos.
+Programa_29: Programa que compara dos cadenas con strcmp y determina si son iguales o no.
+Programa_30: Programa que genera un proceso hijo que escribe HOLA y el padre lo lee, mediante pipe.
+Programa_31: Programa que genera un hijo, el hijo escribe algo y el padre lo lee, por medio de pipe.
+Programa_32: Programa donde se usa un arreglo de caracteres para manejar cadenas y medir su longitud.
+Programa_33: Programa que genera un hijo, el usuario escribe en el hijo y éste lo manda al padre.
+Programa_34: Programa con un proceso hijo, el padre escribe un mensaje y el hijo lee, lo anterior implica que el padre termine antes que el hijo pero no genera conflictos.
+Programa_35: Programa con dos procesos hijos, hijo 1 escribe y envia al padre, el padre lee el mensaje y escribe al hijo 2, el hijo 2 lee el mensaje y lo presenta en pantalla.
+Programa_36. Programa con dos hijos, el hijo 1 escribe HOLA y lo manda al padre, el padre lo lee y manda a hijo 2 LOLA, el hijo 2 lee el mensaje e imprime en pantalla LOLA.
+Programa_37: Programa donde el padre termina antes que el hijo, se usa un for como delay.
+Programa_38: Se utiliza la funcion wait sin argumento para que el padre espere a que el proceso hijo termine para ejecutar su accion.
+Programa_39: Programa que usa la funcion wait (con argumento) y funcion exit para detener el padre hasta que el hijo termine.
+Programa_40: Se muestra el uso de wait. 
+Programa_41: Programa que genera un hilo el cual imprime Hola Mundo, la funcion del hilo no recibe ningun argumento, y la funcion exit tampoco envia algo.
+Programa_42: Programa que genera un hilo el cual imprime un hola mundo, la funcion del hilo recibe un argumento y la funcion exit manda una señal para avisar que el hilo termino. EL PASO DE PARAMETROS A LA FUNCION DEL HILO SE HACE MEDIANTE APUNTADOR.
+Programa_43: Programa que genera un hilo el cual suma dos vectores con 5 elementos, se le envia un 5 como argumento a la funcion del hilo y se recibe una señal proveniente de exit.
+Programa_44: Programa que genera dos hilos, el hilo 1 suma la primer mitad de los elementos de dos arreglos(de 4 elementos) y el hilo 2 la otra mitad, los hilos utilizan una sola funcion, la cual utiliza un IF para decidir.
+Programa_45: Programa que genera dos hilos, el hilo 1 suma la primer mitad  de los elementos de dos arreglos (de 4 elementos) y el hilo 2 la otra mitad, los hilos utilizan una sola funcion, la cual utiliza un FOR para decidir.
+Programa_46: Programa que genera dos hilos, el hilo 1 suma la primer mitad de los elementos de dos arreglos (de 4 elementos) y el hilo 2 suma la segunda mitad. Los hilos usan una sola funcion, la cual usa un for para decidir. Ademas se utilizan arreglos para almacenar los id de los hilos y los argumentos a pasar a la funcion. IMPORTANTE INICIALIZAR EL ARREGLO DE PARAMETROS, de otra manera se presenta el segmentation faul.
+Programa_47: Programa que genera 5 hilos, los cuales suman dos arreglos de 100 elementos cada uno, el hilo 1 suma del 0-19,hilo2 de 20-39, etc.
+Programa_48: Programa que genera 5 hilos, los cuales suman dos arreglos de 119 elementos cada uno, los primeros 4 hilos sumaran 24 elementos cada uno mientras que el quinto hilo sumara solo 23 elementos, todos los hilos utilizan una sola funcion. Se utiliza for e if para decidir.
