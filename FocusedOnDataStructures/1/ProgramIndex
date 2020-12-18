@@ -1,0 +1,56 @@
+Programa_02: Programa que define una estructura de datos (alumno) su llenado y muestra los elementos, se utilizan tipos de datos int,float,char,arreglo de caracteres.
+Programa_04: Programa que usa typedef junto con una estructura.
+Programa_05: Programa que utiliza datos tipo int, arreglo de char y son ingresados por el usuario a una estructura,  se imprimen los mismos en pantalla. La seccion comentada marca un error y es cuando se ingresa un caracter a un miembro de la estructura mediante la notacion punto. DUDA. ¿COMO SE INGRESAN CARACTERES (CHAR) A LOS MIEMBROS DE LAS ESTRUCTURAS?
+Programa_06: Programa que declara una estructura, se ingresan sus miembros y se utiliza el typedef.
+Programa_07: Programa que usa un arreglo de estructuras, el usuario ingresa los datos a los campos de la estructura mediante notacion punto y se muestran dichos datos en pantalla.
+Programa_08: Programa en el cual el usuario ingresa los elementos de un arreglo y los muestra en pantalla.
+Programa_09: Repaso de apuntadores basicos
+Programa_10: Programa que pasa un arreglo como parametro a una funcion.
+Programa_11: Programa que usa una funcion la cual recibe como parametro un arreglo de int. La funcion calcula el promedio de los valores del arreglo y lo muestra en pantalla. Los elementos del arreglo son ingresados por el usuario.
+Programa_12: Programa que suma los elementos de un arregloy saca el promedio de ellos.
+Programa_13: Programa que pide tres elementos para un arreglo y se modifica el primer elemento mediante la sintaxis de apuntador. Recordad que el nombre de un arreglo es un apuntador al primer elemento
+Programa_14: Programa que comprueba que el nombre de un arreglo es un apuntador al primer elemento del arreglo.
+Programa_15: Programa que define un arreglo y un apuntador a arreglo. Se van modificando los valores del arreglo y se van observando sus localidades de memoria
+Programa_16:
+Programa_17: Programa que usa un arreglo de estructuras para una agenda de amigos
+Programa_18: Programa de apuntador a estructuras. Se inicializa una estructura y se accede a sus campos mediante un apuntador a esa estructura
+Programa_19: Programa que usa un apuntador a una estructura para llenar los campos de la misma.
+Programa_20: Programa que define un apuntador a arreglo (el mismo nombre del arreglo) y lo recorre mediante aritmetica de apuntadores.
+Programa_21: Programa que usa un apuntador a arreglo de estructuras y que imprime sus elementos.
+Programa_22: Programa que declara un arreglo de estructuras y se van llenando sus elementos mediante un apuntador al tal arreglo.
+Programa_24: Programa que recorre un arreglo mediante un apuntador al arreglo.
+Programa_25: Programa que imprime un arreglo mediante su apuntador y ademas las localidades de memoria para ver los saltos del apuntador. EL NOMBRE DE UN ARREGLO NO ES UN APUNTADOR AL ARREGLO SINO SOLO LA DIRECCION DE MEMORIA DEL PRIMER ELEMENTO DEL ARREGLO
+Programa_26: Programa que pide los elementos de un arreglo y los imprime mediante un apuntador
+Programa_27: Programa de un arreglo a estructuras, el usuario ingresa los datos de la estructuras y se imprimen, TODO SE HACE MEDIANTE APUNTADOR A ESTRUCTURA
+Programa_28: Programa que utiliza un arreglo como parametro de una funcion. La funcion recibe el parametro, suma los elementos del arreglo y envia su resultado al main donde éste es utilzado para calcular el promedio de los elementos del arreglo
+Programa_29: Programa de estructuras como parametro de funciones.
+Programa_30: Programa que usa una funcion la cual devuelve un apuntador.
+Programa_31: Programa que manda un arreglo a una funcion, esta lo modifica y regresa un apuntador, finalmente el arreglo se vuelve a imprimir desde el main. Despues de esto se imprimen el arreglo.
+Programa_32: Programa de apuntadores dobles
+Programa_33: Programa que manipula los miembros de una estructura sin conocer su nombre pero si su apuntador.
+Programa_34: Programa que modifica los miembros de una estructura de la cual no conozco su nombre pero si su apuntador. Imprimo ademas sus direcciones.
+Programa_35: Programa que inicializa una lista enlazada con un solo nodo
+Programa_36: Programa que genera una lista ligada con dos nodos. Los nodos se generan de forma manual.
+Programa_37: Programa que genera una lista ligada de tres nodos de forma manual
+Programa_38: Programa que genera una lista con 4 nodos de forma manual
+Programa_39: Programa que muestra que el miembro siguiente de una estructura autoreferenciada no apunta al mismo lado que el apuntador de la estructura lo hace
+Programa_40: Programa que genera dos nodos de una lista enlazada simple de forma manual y un tercero medianta una funcion
+Programa_41: Programa que genera 3 nodos de una lista de forma manual
+Programa_42. Programa que genera dos nodos de una lista de forma manual y dos mas mediante una funcion.
+Programa_43: Programa que genera dos nodos en una lista de manera manual y un tercero mediante una funcion, ademas mediante una funcion se enumeran los nodos de la lista.
+Programa_44: Programa que genera 6 nodos, dos de manera manual y 4 mediante una funcion, son contados ademas mediante una funcion 
+Programa_45: Programa que maneja estructuras autoreferenciadas y apuntadores a ellas, se observa el comportamiento de los miembros "siguiente" cuando los apuntadores apuntan a distintos lados. ES DE SUMA IMPORTANCIA RECORDAR QUE LOS APUNTADORES dato* POR SI SOLOS NO TIENEN MIEMBROS PORQUE NO SON ESTRUCTURAS DEL TIPO dato SINO QUE SOLAMENTE SON UNAS FLECHAS QUE APUNTAN A ESPACIOS DE MEMORIA LOS CUALES SI SON ESTRUCTURAS CON MIEMBROS. ANTES YO PENSABA QUE ESTE PROGRAMA ME ARROJABA ERROR Y LO EXPRESABA DE LA SIGUIENTE FORMA "al parecer cuando se igualan apuntadores, tambien igualamos los miembros SIGUIENTE, pero si despues apuntamos a otro lado algun apuntador el miembro siguiente apunta a donde sea"*/
+Programa_46: Programa que genera 3 nodos, dos de manera manual y uno mediante una funcion. Se analizan los miembros siguientes de cada estructura y se determina que los apuntadores solo apuntan a una direccion de memoria donde hay una estructura. CABE ACLARAR QUE UN APUNTADOR A ESTRUCTURA NO TIENE MIEMBROS SINO QUE SOLO ES UNA FLECHA QUE APUNTA A UN PEDAZO DE MEMORIA DONDE HAY UNA ESTRUCTURA QUE SI TIENE MIEMBROS.
+Programa_47: Programa que cuenta con 4 variables a estructuras autoreferenciadas, dos apuntadores a esas variables. Se analiza cuidadosamente el miembro siguiente de las variables (del tipo estructuras referenciadas) y se observa como podemos imprimirlos mediante apuntadores. RECORDAR QUE LOS APUNTADORES NO CONTIENEN MIEMBROS POR SI MISMOS SINO QUE SOLO SON UNA FLECHA QUE APUNTA A UN SEGMENTO DE MEMORIA EN DONDE SI ESTA UNA ESTRUCTURA LA CUAL SI TIENE MIEMBROS
+Programa_48: Programa que genera 5 nodos dos manuales y tres mediante una funcion. Ademas cuento el numero de nodos que tiene la lista mediante una funcion
+Programa_49: Programa que maneja apuntadores a variables del tipo estructuras autoreferenciadas. Se analiza los elementos siguiente de cada estructura y se imprimen mediante apuntadores. RECORDAD QUE UN APUNTADOR SOLO ES UNA FLECHA A UN PEDAZO DE MEMORIA QUE EN ESTE CASO PARTICULAR TIENE ESTRUCTURAS CON MIEMBROS PERO QUE EL APUNTADOR POR SI MISMO NO TIENE MIEMBROS.
+Programa_50: Programa en donde genero 3 nodos dos de forma manual y uno mediante funcion, los cuento y los lleno.
+Programa_51: Programa que genera 4 nodos, uno manual y tres mediante funcion. Se llenan los nodos mediante una funcion. 
+Programa_52: Programa que genera 4 nodos uno manual y 3 mediante funcion, se cuentan los nodos, se llenan los nodos y se imprimen los miembros de los nodos todo mediante funciones.
+Programa_53: Programa que genera 3 nodos uno manual, 2 mediante funcion se cuentan mediante una funcion y se llenan los miembros de los nodos mediante un for.
+Programa_54: Programa que genera una lista de 3 nodos (uno manual y dos mediante funcion) se cuentan los nodos de la lista, despues se borran los nodos y se vuelve a contar la lista.
+
+
+
+
+
