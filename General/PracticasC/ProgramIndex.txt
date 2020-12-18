@@ -1,0 +1,104 @@
+Programa_01: Hola Mundo
+Programa_02: Pide al usuario que ingrese dos numeros y muestra el resultado de las cuatro operaciones basicas con esos dos numeros.
+Programa_03: Pide dos numeros y muestra el resulatdo de las cuatro operaciones.
+Programa_05: Programa que imprime la secuencia de 0 a 10 de dos en dos, por medio del acumulador
+Programa_06: Programa que imprime 20 veces la palabra hola utilizando la instrucción while.
+Programa_07: Imprime del 1 al 40 usando un if y un while
+Programa_08: Imprime un mensaje utilizando la funcion getche()
+Programa_09: Calcula el factorial de un numero ingresado.
+Programa_10: Hce una multiplicacion pero utilizando una constante global
+Programa_11: Imprime los elementos de un arreglo del tipo char
+Programa_12: Realiza la suma de dos numeros mediante una funcion.
+Programa_13: Muestra el modulo o residuo de una division.
+Programa_14: Imprime en pantalla un mensaje si se cumple la condicion u otro sino.
+Programa_15: imprime un caracter reservado (Ñ) utilizando su equivalente en ascii (165)
+Programa_16: Determina si un numero es par o impar
+Programa_17: Determina si un año es o no bisiesto.
+Programa_18: Determina la raiz cuadrada de un numero dado.
+Programa_19: Imprime del 1 al 100 por medio de un while.
+Programa_20: Resuelve una u otra ecuacion de acuerdo a si un numero es mayor a otro. Se utiliza un if anidado
+Programa_21: Imprime una cuenta descendente del 10 al 1 mediante un while
+Programa_22: Imprime una cuenta ascendente desde cero hasta un limite superior dado por el usuario.
+Programa_23: Imprime una cuenta descendente desde un limite dado por el usuario hasta cero
+Programa_24: imprime una cuenta ascendente o descendente con limites dados por el usuario
+Programa_25: Imprime una cuenta ascendente o descendente con los limites ingresados por el usuario.
+Programa_26: Imprime una cuenta ascendente desde 1 hasta 3 cada 0.003, se utiliza el acumulador.
+Programa_27: Imprime las letras minusculas del abecedario utilizando su codigo ascii.
+Programa_28: Imprime solo las vocales de acuerdo a su codigo ascii.
+Programa_29: Imprime el abecedario en mayusculas omitiendo las vocales.
+Programa_30: Se pide al usuario 5 letras y se almacenan en un arreglo y luego se muestra el elemento deseado.
+Programa_31: Pide dos cadenas de caracteres y las muestra, se utiliza el %s en vez de %c.
+Programa_32: Se utilizan las funciones gets y puts para guardar y mostrar cadena de caracteres(alternativa a scanf y printf).
+Programa_33: Se comparan dos cadenas de caracteres por medio de la funcion strcmp.
+Programa_34: Imprime del 1 al 10 por medio de un do-while.
+Programa_35:XXXXXX
+Programa_36: Imprime una cuenta ascendente o descendente por medio de un ciclo for.
+Programa_37: Imprime del 0 al 10 por medio de un ciclo for.
+Programa_38: Imprime de 1 a un limite dado, utilizando un ciclo for.
+Programa_39: Imprime desde un limite superior dado hasta 1 mediante un ciclo for.
+Programa_40: Calculadora implementada con switch.
+Programa_41: Programa que genera una cuenta ascendente o descendente por medio de un ciclo do-while.
+Programa_42: Programa que imprime una cuenta de 0 a n siempre y cuando n sea menor a 10.
+Programa_43: Programa que utiliza la libreria areaperimetro para calcular el perimetro y el area de un cuadrado.
+Programa_44: Utiliza un switch y la cabecera areas.h para calcular el perimetro y el area de figuras.
+Programa_45: Se utilizan dos funciones para el calculo del perimetro y area de un cuadrado.
+Programa_46: Se utilizan funciones para realizar las operaciones basicas
+Programa_47: Division de dos numeros del tipo flotante.
+Programa_48: XXXX
+Programa_49: Programa con llamada de una funcion dentro de la misma funcion, con un "limite" para evitar un ciclo infinito.
+Programa_50: Programa que inicializa un arreglo de una dimension e imprime sus elementos.
+Programa_51: Programa que imprime los elementos de una matriz de 3X2.
+Programa_52: Pide el numero de renglones y columnas de una matriz, pide los valores y los imprime
+Programa_53: Pide una cadena de caracteres y la imprime.
+Programa_54: Programa que pide los elementos de dos arreglos 2X2 y en un tercero los suma
+Programa_55: Suma los elementos internos de un arreglo unidimensional
+Programa_56: Programa que utiliza la sentencia break para terminar un ciclo.
+Programa_57: Sentencia continue, para demostrar que ignora una iteracion del ciclo.
+Programa_58: Utiliza una estructura para almacenar los datos de una persona.
+Programa_59: Arreglo de estructuras que almacena los datos personales de tres personas.
+Programa_60: Inicializacion de una estructura.
+Programa_61: Programa que utiliza un apuntador a una estructura para introducir datos a los campos de ella y despues mostrarlos por medio de ->.
+Programa_62: XXX
+Programa_63: Muestra la dirección de una variable por medio del operador &
+Programa_64: Muestra la direccion y el valor tanto de una variable como de su apuntador.
+Programa_65: Modifica y muestra el valor apuntado por un apuntador mediante *
+Programa_66: Se comparan dos numeros por medio de apuntadores
+Prograna_67: Paso por referencia a una funcion, se cambia el valor de una variable (del main) desde otra funcion.
+Programa_68: XXXX
+Programa_69: Programa que utiliza la funcion strcpy para copiar una cadena de caracteres de un lado a otro SIN ESPACIOS EN BLANCO
+Programa_70: Funcion gets para ingresar cadenas de caracteres(CON ESPACIOS BLANCOS) a alguna variable.
+Programa_71: Inicializo arreglos con solo especificar el valor de uno de sus elementos.
+Programa_72: Se utiliza el &, * y suma de enteros a apuntadores para ver el resultado.
+Programa_73: Se utiliza la funcion malloc y free para reservar espacio en memmoria dinamica.
+Programa_74: Apuntador a apuntador.
+Programa_75: Recorrido de un arreglo por medio de un apuntador.
+Programa_76: Apuntador a NULL.
+Programa_77: Reasignacion de un apuntador a lo que apunta.
+Programa_78: Arreglo de apuntadores y apuntador a arreglo.
+Programa_79: Paso por referencia, se incrementa una variable (del main) 5  veces por medio otra funcion
+Programa_80: XXXX Apuntador a arreglo
+Programa_81: Notacion de arreglo, notacion de apuntador
+Programa_82: Apuntador que recorre un arreglo y se muestra notacion de apuntadores y notacion de arreglos
+Programa_83: Arreglo de apuntadores. Se imprime el valor de los arreglos por medio de un arreglo de apuntadores.
+Programa_84: Uso de malloc y free para reservar memoria dinamica.
+Programa_85: Se utiliza el sizeof para determinar el tamaño de cada tipo de dato.
+Programa_86: Se usa sizeof para medir el tamaño de una estructura sin embargo no se respeta la suma de todos los miembros.
+Programa_87: Se llena una estructura (mediante el punto (.)) y se muestra en pantalla los datos.
+Programa_88: Llenado de los campos de una estructura mediante un apuntador a ella (operador ->)
+Programa_89: Llenado de los campos de una estructura por medio de un apuntador a esa estructura.
+Programa_90: Paso por valor de una estructura.
+Programa_91: Paso de una variable por valor a dos funciones. Se observa que las modificaciones hechas en tales funciones no alteran el valor original de la variable en el main
+Programa_92: Paso por referencia de una estructura. Se modifican los campos de una var de tipo estructura (local) por medio de pasar dicha variable a una funcion por referencia.
+Programa_93: Notacion de arreglos y notacion de apuntadores(LA NOTACION SE HACE CON EL NOMBRE DEL APUNTADOR)
+Programa_94: Barrido de un arreglo por medio de un apuntador (NOTACION DE APUNTADORES, en el nombre del APUNTADOR).
+Programa_95: Barrido de un arreglo por medio de un apuntador (NOTACION DE ARREGLO, en el nombre del APUNTADOR).
+Programa_96: Notacion de apuntadores y arreglos por medio del nombre del ARREGLO
+Programa_97: Paso por referencia de una estructura a muchas funciones.
+Programa_98: Arreglo de estructuras. LLeno y despliego los miembros de las estructuras.
+Programa_99: Paso por referencia con distintos nombres en los argumentos de las funciones.
+Programa_100:
+Programa_101: Apuntador a estructura y uso del malloc para reservar memoria dinamica.
+
+
+
+

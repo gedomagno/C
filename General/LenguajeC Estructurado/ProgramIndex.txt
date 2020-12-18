@@ -1,0 +1,28 @@
+prog_01: Hola mundo
+prog_02: Hola usuario, con un arreglo del tipo char
+prog_03: Pide un numero al usuario e imprime del cero hasta el numero ingresado
+prog_04. Calculadora de 2 numeros con switch
+prog_07: Calcula la suma de dos enteros por medio de una funcion
+prog_18: Lee el contenido de un archivo (fichero) existente y lo presenta en pantalla
+prog_19: Genera un archivo (fichero) con la operacion seleccionada por el usuario y sus operandos
+prog_20: Lee el contenido de un archivo(fichero) existente (menu.txt) y presenta el resultado de una operacion
+prog_21: Me da el promedio de alumnos mediante la definicion de arreglos
+prog_22: Imprime los elementos de un arreglo
+prog_23. Imprime los elementos de un arreglo unidimensional
+prog_24: Imprime el contenido de una matriz 2x2
+prog_25: Genera una matriz de nxm (arreglo bidimensional), pide los datos y los imprime
+prog_26: Me da el promedio de tres calificaciones
+prog_27: Realiza la suma de los elementos de un arreglo
+prog_28: Programa ideal para ejercitar la depuracion de errores y ver el cambio de valores de las variables
+prog_29: Programa que muestra el concepto de funciones
+prog_30: Programa que determina el mayor de dos numeros ingresados, mediante funciones
+prog_31: Programa que suma dos numeros mediante el uso de funciones
+prog_32: Programa que invierte el valor de dos numeros mediante funciones
+prog_33: Programa que lee N numeros e imprime el porcentaje de numeros pares e impares
+prog_34: Programa que me determina si un numero es par o impar
+prog_35: Programa que muestra la direccion donde se guarda una variable
+prog_36: Programa que muestra el uso de punteros
+prog_37: Programa que muestra el cambio de valor de una variable por medio de punteros
+prog_38: Programa que compara dos numeros por medio de punteros
+prog_39: Programa que compara dos localidades de memoria por medio de punteros
+prog_40: Programa que suma dos numeros por medio de funciones

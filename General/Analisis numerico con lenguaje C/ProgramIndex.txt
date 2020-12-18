@@ -1,0 +1,12 @@
+Prog_01 Imprime la palabra Hola
+Prog_02: Imprime las palabras Ingenieria, hola.
+Prog_03: Pide del usuario dos numeros y muestra el valor de las cuatro operaciones basicas
+Prog_04: Pide dos numeros (separados por coma) y muestra el resultado de las 4 operaciones basicas
+Prog_05: Muestra una secuencia de dos en 2 hasta 10, haciendo enfasis en el uso del acumulador.
+Prog_06: Imprime 20 veces la palabra Hola utilizando un ciclo while
+Prog_07: Imprime del 1 al 40 con saltos de sangria en cada multiplo de 10. If es verdadero si=1 y falso si=0;
+Prog_11: Imprime un mensaje en pantalla utilizando la funcion getche()
+Prog_12: Utiliza la instruccion toupper para convertir lo leido en el teclado a mayuscula
+Prog_13: Calcula el factorial de un numero ingresado.
+Prog_17: Imprime los elementos de un arreglo del tipo char
+Prog_22: Calcula la suma de dos numeros mediante una funcion.
