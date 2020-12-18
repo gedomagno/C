@@ -1,0 +1,75 @@
+Programa_02: Programa que muestra el valor de un numero en hexadecimal. Se utiliza %X
+Programa_03: Programa que muestra el efecto de desplazar un bit a la izquierda.
+             EL numero original se multiplica por dos, en cada desplazamiento a la izquierda
+Programa_04: Programa que muestra el efecto de desplazar los bits de un numero a la izquierda
+             El valor se multiplica por dos en cada movimiento a la izquierda
+Programa_05: Programa que ejecuta la operacion or entre dos variables
+Programa_06: Programa que muestra el uso de operadores logicos en lenguaje c
+	     AND (&&): Da como resultado 1 cuando los dos son distintos de cero	
+	     OR  (||): Da como resulatdo 0 si los dos operandos son cero 	
+             NOT (!) : Da como resultado 1 si el operando en cero y 0 en caso contrario	
+Programa_11: Programa que ejecuta la operaciones logicas AND OR XOR e INVERSOR a dos numeros enteros
+Programa_12: Programa que emula la operacion logica AND bit a bit
+Programa_13: Programa que emula la operacion logica OR bit a bit
+Programa_14: Programa que emula la operacion logica XOR bit a bit
+Programa_15: Programa que emula la operacion logica NEGADO bit a bit
+Programa_17: Programa que asegura los resultados de XAND0=0, XAND1=X 
+Programa_18: Programa que asegura los resulatdos de XOR0=X, XOR1=1	
+Programa_19: Programa que asegura los resulatdos de XXOR0=X, XXOR1=negado de X	
+Programa_20: Programa que muestra algunos usos de una mascara con operacion AND	    
+Programa_21: Programa que utiliza una mascara y una operacion and para determinar si el 4 bit de una secuencia de bist es cero o uno
+Programa_22: Programa que utiliza una mascara y una operacion AND para forzar un bit de una secuencia de bits a valer cero.
+Programa_23: Programa que utiliza una mascara and para determinar el valor de los ultimos 3 bits de una secuencia de bits
+Programa_24: Programa que utiliza una mascara and para extraer (conocer) el valor de los bist 3-5 de una secuencia de 8 bits
+Programa_25: Programa que utiliza una mascara OR para obligar al quinto bit de una secuencia de 8 bits a ser 1.
+Programa_26: Programa que utiliza una mascara XOR para complementar unos bits
+Programa_27: Programa Hola Mundo pero con VIM
+Programa_28: Programa que muestra el efecto de recorrer una secuencia de bits un bit a la izquierda, se multiplica el numero original por dos
+Programa_29: Programa que muestra el efecto de recorrer una secuencia de bits a la derecha, se divide por dos por cada desplazamiento: CHECAR
+Programa_30: Programa que muestra como saber si el 5 bit de una secuencia de bits es 0 o 1. Se utiliza una mascara AND 
+Programa_31: Programa que muestra como se obliga a ser 0 al quinto bit de una secuencia de bits, los otros bit no son modificados. Se utiliza una mascara
+	     AND y despues se comprueba que el 5 bit si sea un 0, se utiliza otra mascara AND
+Programa_32: Programa que muestra como es posible "obligar" al sexto bit de una secuencia a ser 1. Se utiliza para ello una mascara OR
+	     Se comprueba ademas que dicho bit sea uno, mediante una mascara AND.
+Programa_33: Programa Hola mundo hecho con VIM
+Programa_34: Programa Adios mundo hecho con VIM	
+Programa_35: Programa que emula la operacion AND bit a bit,hecho con VIM
+Programa_36: Programa que emula la operacion OR bit a bit, hecho con VIM
+Programa_37: Programa que emula la operacion XOR bit a biti
+Programa_38: Programa que ejecuta la operacion complemento a1, se utiliza ~
+Programa_39: Programa que ocupa el operador ~ para obtener el complemento a1
+de un numero. EL resultado obtenido esta representado bajo el convenio de
+complemento a2 por lo que para obtener el resulatdo en decimal es necesario
+aplicarle al resultado la operacion complemento A2
+Programa_40: Programa que utiliza el operador ~ para ejecutar la operacion
+complemento a1, el valor obtenido esta representado mediante el convenio de
+complemento a2 por lo que para obtener el resultado se debe aplicar la
+operacion complemento A2. Cabe senalar que el resulatdo obtenido por la compu
+en formato hexadecimal no requiere aplicarsele la operacion complemento a2 y
+se puede transformar directamente a decimal
+Programa_41: Programa que demuestra que la representacion de numeros negativos
+en la computadora se hace bajo el convenio de complemento A2, el cual consiste
+en aplicar la operacion de complemento a2 a su simil positivo. Recordar que la
+representacion de un numero positivo bajo el convenio de complemento a2 es la
+representacion en binario puro 
+Programa_42: Programa que determina si un bit de una secuencia de bits es cero o uno. Se utiliza una mascara AND
+Programa_43: Programa que determina si dos bits (de una secuencia de bits) son cero o uno. Se utiliza una SOLA mascara AND
+Programa_44: Programa que determina si un bit de una secuencia de bits es cero o uno. Se utiliza una mascara OR
+Programa_45: Programa que determina si dos bits (de una secuencia de bits) son cero o uno. Se utiliza una sola mascara OR
+Programa_46: Programa que muestra como utilizar una mascara AND para forzar a cero un conjunto de bits de una secuencia de bits 
+Programa_47: Programa que muestra como utilizar una mascara OR para forzar a uno un conjunto de bits de una secuencia de bits  
+Programa_48: Programa que utiliza una mascara para extraer unos bits de una secuencia de bits
+Programa_49: Programa que muestra el efecto de recorrer un bit a la izquierda. El resultado; por cada bit recorrido se quivale a multiplicar el numero por dos
+Programa_50: Programa que muestra el efecto de recorrer un bit a la derecha. POR cada espacio recorrido a la derecha se divide el numero bajo estudio entre dos
+Programa_51: Programa que genera una mascara y se desplaza a la izquierda con el fin de recorrer 8 bits de una variable
+Programa_52: Programa que determina mediante una sola mascara, cuantos bits estan en cero de una secuencia de bits. Se utiliza una mascara AND
+Programa_53: Programa que determina la cantidad de bits que estan en uno, mediante una sola mascara que se desplaza. Se utiliza la mascara AND
+Programa_54: Programa que muestra como usar una mascara AND para separar un numero de 8 bits en dos de 4 bits
+Programa_55: Programa que separa un numero de 8 bits en tres diferentes partes, una de tres bits, otra de 2 bits y una mas de tres. Se utilizan mascaras AND y desplazamientos a la derecha
+Programa_56: Programa que muestra como unir 3 numeros de 2,2,4 bits en uno solo de 8 bits. Se utiliza una mascara OR y desplazamiento de bits
+Programa_57: Programa que muestra el uso de comparadores logicos AND OR y NOT sin una "expresion logica"
+Programa_58: Programa que muestra el uso del define para darle otro nombre a alguna constante
+Programa_59: Programa que repasa apuntadores y ademas muestra que #define puede ser tambien un apuntador o el contenido de esa direccion
+Programa_60: Programa que repasa el uso de #defiine para definir constantes simbolicas.
+Programa_61: Programa de repaso de apuntadores basico.
+Programa_62: Programa donde se usa la funcion malloc y se analizan algunas cosas.
